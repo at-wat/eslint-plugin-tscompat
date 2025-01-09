@@ -1,5 +1,5 @@
 {
-  "name": "@koddsson/eslint-plugin-tscompat",
+  "name": "@at-wat/eslint-plugin-tscompat",
   "version": "0.0.0",
   "description": "",
   "type": "module",
@@ -31,5 +31,8 @@
     "esbuild": "^0.24.0",
     "tsx": "^4.7.2",
     "typescript-eslint": "^8.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
